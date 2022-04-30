@@ -3,33 +3,24 @@
     padding: 0;
 }
 
-body{
-    
+body {
+    background-color: #ac7c3d;
 }
 .container {    
     width: 1600px;
     height: 800px;
     padding: 0;
     margin: 60px auto;
-    background-color: #539A46;
+    background-color: #539a46;
     position: relative;
-}
-
-.line {
-    width: 1600px;
-    height: 800px;
-    border: 3px solid #000000;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    border: 3px solid #ffffff;
 }
 
 .goal-left {
     width: 125px;
     height: 250px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
+    border-left: none;
     position: absolute;
     left: 0px;
     top: 250px;   
@@ -38,7 +29,8 @@ body{
 .goal-right {
     width: 125px;
     height: 250px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
+    border-right: none;
     position: absolute; 
     right: 0px;
     top: 250px;
@@ -47,7 +39,8 @@ body{
 .area-right {
     width: 250px;
     height: 450px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
+    border-right: none;
     position: absolute;   
     right: 0px;
     top: 150px;
@@ -56,7 +49,8 @@ body{
 .area-left {
     width: 250px;
     height: 450px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
+    border-left: none;
     position: absolute; 
     left:0px;
     right: 0px;
@@ -66,15 +60,14 @@ body{
 .mid-line {
     width: 800px;
     height: 800px;
-    border: 3px solid #000000;
-    border-bottom: 0px;
+    border-right: 3px solid #ffffff;
     position: absolute;
 }
 
 .mid-circle {
     width: 200px;
     height: 200px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     position: absolute;
     top: 250px;
     left: 700px;
@@ -84,56 +77,56 @@ body{
 .mid-spot {
     width: 20px;
     height: 20px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     position: absolute;
     top: 340px;
-    left: 792px;
+    left: 788px;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .p-spot-left {
     width: 10px;
     height: 10px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     position: absolute;
     top: 365px;
     left: 180px;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .p-spot-right {
     width: 10px;
     height: 10px;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     position: absolute;
     top: 365px;
     right: 180px;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .half-circle-left {
     height: 100px;
     width: 200px;  
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     position: absolute;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(-90deg);
     top: 320px;
-    left: 203px;
+    left: 200px;
 }
 
 .half-circle-right {
     height: 100px;
     width: 200px;  
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     position: absolute;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(90deg);
     top: 320px;
-    right: 203px;
+    right: 200px;
 }
 
 
